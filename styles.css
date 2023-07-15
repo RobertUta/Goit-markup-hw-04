@@ -59,8 +59,8 @@ a {
   align-items: center;
 }
 
-a:hover,
-a:focus{
+.hover:hover,
+.hover:focus{
   color: var(--accent-color);
 }
 
