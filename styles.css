@@ -59,6 +59,11 @@ a {
   align-items: center;
 }
 
+a:hover,
+a:focus{
+  color: var(--accent-color);
+}
+
 .first-studio {
   margin-left: 95px;
 }
@@ -77,8 +82,8 @@ a {
   letter-spacing: 0.28px;
 }
 
-.link-contact .icons-header:hover,
-.link-contact .icons-header:focus {
+.link-contact:hover,
+.link-contact:focus {
   color: var(--accent-color);
 }
 
@@ -562,7 +567,7 @@ ul {
   color: white;
 }
 .icon-social-links-footer {
-  fill: currentColor;
+  fill: white;
 }
 .link-social-footer:hover,
 .link-social-footer:focus {
